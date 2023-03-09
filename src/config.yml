@@ -1,0 +1,20 @@
+main:
+  prefix: "&6[&c&lEasySpawn&r&6]"
+  player_need_permission_to_teleport: "false" # True = the player needs the permission to execute the /spawn command | False = the player doesn't need the permission to execute /spawn command.
+teleport:
+  on_join: "true" # True = teleports the player as soon as he logs on. | False = does not teleport the player as soon as he logs in.
+  on_first_join: "true" # True = Teleports the player only if he has never logged into your server. | False = useless.
+  message_on_teleport: "true" # True = Sends a message when the player logs on. | False = Doesn't send a message when the player logs on.
+message:
+  success_reloading_config: "&eThe configuration has been reloaded."
+  not_permission: "&cYou don't have permission to perform this command."
+  sender_is_not_player: "&cSorry! You must be a player to run this command."
+  command_doesnt_exist: "&cSorry! This command doesn't exist."
+  success_creating_spawn: "&aSuccess! The spawn point has been successfully defined."
+  teleport_message: "&7You've just been teleported to the spawn."
+permission:
+  reload_plugin: "easyspawn.command.reload" # Useless if you're operator on the server. | /spawn reload (reload the configuration)
+  define: "easyspawn.command.spawn.define" # Useless if you're operator on the server. | /spawn define (define the spawn location)
+  spawn: "easyspawn.command.spawn.use" # Useless if you're operator on the server. | /spawn (teleport to spawn location)
+location:
+  loc: world,0,115,0,0,0

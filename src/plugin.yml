@@ -1,0 +1,6 @@
+main: be.maksxou.spigotmc.EasySpawn
+author: maksxou
+version: 4.0
+name: EasySpawn
+commands:
+  spawn:
